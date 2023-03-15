@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: Robotic;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: Robotic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 500px;
+}
+
+.team {
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 350px;
+    background-color: black;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-size: 120px;
+}
+
+.buttons {
+    margin-top: 70px;
+    display: block;
+}
+
+.btn{
+    color: #9AABD8;
+    background: #1B244A;
+    border: 6px solid #9AABD8;
+    border-radius: 8px;
+    padding: 25px 20px;
+    
+}
